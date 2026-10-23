@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="540" viewBox="0 0 1600 540" role="img" aria-labelledby="title desc">
+<title id="title">Rewind</title><desc id="desc">Your music. A different era. A white Click Wheel music player on a warm silver background.</desc>
+<defs>
+ <linearGradient id="paper" x2="1" y2="1"><stop stop-color="#fafaf8"/><stop offset="1" stop-color="#e5e5df"/></linearGradient>
+ <linearGradient id="shell" x2="1" y2=".5"><stop stop-color="#fff"/><stop offset=".6" stop-color="#fdfdfb"/><stop offset="1" stop-color="#e7e8e2"/></linearGradient>
+ <linearGradient id="lcd" x2="1" y2=".4"><stop stop-color="#becce1"/><stop offset=".5" stop-color="#d5dff0"/><stop offset="1" stop-color="#c0cee3"/></linearGradient>
+ <radialGradient id="wheel"><stop stop-color="#dfe0da"/><stop offset="1" stop-color="#cfd1ca"/></radialGradient>
+ <filter id="shadow" x="-50%" y="-30%" width="200%" height="180%"><feDropShadow dy="18" dx="5" stdDeviation="17" flood-color="#4c5044" flood-opacity=".19"/></filter>
+ <pattern id="lines" width="3" height="3" patternUnits="userSpaceOnUse"><path d="M0 0H3" stroke="#30476a" stroke-opacity=".06"/></pattern>
+</defs>
+<rect width="1600" height="540" rx="22" fill="url(#paper)"/>
+<path d="M70 65H1530M70 476H1530" stroke="#d2d3cd"/>
+<g fill="#858a7e" font-family="Helvetica,Arial,sans-serif" font-size="13" letter-spacing="3"><text x="75" y="43">REWIND / 01</text><text x="1250" y="43">CLICK. SPIN. LISTEN.</text></g>
+<g font-family="Helvetica,Arial,sans-serif">
+ <text x="93" y="230" font-size="130" font-weight="600" letter-spacing="-9" fill="#40423e">rewind<tspan font-size="32" letter-spacing="0" dy="-65" dx="10" fill="#91968a">01</tspan></text>
+ <text x="100" y="291" fill="#71776b" font-size="27" letter-spacing="-.6">Your music. A different era.</text>
+ <text x="102" y="357" fill="#92988a" font-size="15">A familiar wheel. A quieter corner of the web.</text>
+</g>
+<g transform="translate(1110 91) rotate(8 106 180)" filter="url(#shadow)">
+ <rect x="3" y="2" width="216" height="365" rx="19" fill="#b5b9ae"/>
+ <rect width="216" height="364" rx="18" fill="url(#shell)" stroke="#aeb3a6"/>
+ <rect x="3" y="3" width="210" height="356" rx="15" fill="none" stroke="#fff" stroke-width="2"/>
+ <rect x="33" y="24" width="150" height="123" rx="5" fill="#c3c8bd" stroke="#a3ab9c"/>
+ <rect x="38" y="29" width="140" height="113" fill="url(#lcd)"/>
+ <g fill="#2b4263" font-family="monospace" font-size="13" font-weight="bold">
+ <text x="89" y="46">iPod</text><path d="M42 51H174" stroke="#2b4263" stroke-width="1.6"/>
+ <rect x="153" y="38" width="15" height="6" fill="none" stroke="#2b4263"/><rect x="155" y="40" width="10" height="2"/>
+ <rect x="38" y="55" width="140" height="18"/><text x="43" y="69" fill="#ccd9e9">Music</text><text x="164" y="69" fill="#ccd9e9">›</text>
+ <text x="43" y="87">Settings</text><text x="164" y="87">›</text><text x="43" y="105">Shuffle Songs</text><text x="43" y="123">Backlight</text>
+ </g>
+ <rect x="38" y="29" width="140" height="113" fill="url(#lines)"/>
+ <circle cx="108" cy="257" r="76" fill="url(#wheel)" stroke="#b5bbb0"/>
+ <circle cx="108" cy="257" r="25" fill="url(#shell)" stroke="#b4baac"/>
+ <g fill="#fcfdf8" font-family="Helvetica,Arial,sans-serif" font-size="9" font-weight="bold" text-anchor="middle"><text x="108" y="203">MENU</text><text x="49" y="261">◀◀</text><text x="168" y="261">▶▶</text><text x="108" y="320">▶ Ⅱ</text></g>
+</g>
+<g fill="#9b9e93" font-family="Helvetica,Arial,sans-serif" font-size="12" letter-spacing="1.5"><text x="76" y="507">INDEPENDENT • OPEN SOURCE • MADE FOR YOUR OWN MUSIC</text><text x="1340" y="507">BACK TO SIMPLE.</text></g>
+</svg>

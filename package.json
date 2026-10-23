@@ -1,0 +1,9 @@
+{
+  "name": "rewind-spotify",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test tests/*.test.js",
+    "check": "node --check dist/app.js && node --check dist/spotify.js && node --check dist/core.js && node --check dist/sound.js && node --check dist/popout.js"
+  }
+}
